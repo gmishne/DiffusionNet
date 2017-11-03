@@ -37,6 +37,10 @@ eta=100000.0
 Final encoder loss 1.37e+00
 Full autoencoder denoising loss 1.22e+00
 ```
+
+![alt text](https://github.com/gmishne/DiffusionNet/blob/master/DN_enc_2layer.png "DN encoder 2 hidden layers")
+![alt text](https://github.com/gmishne/DiffusionNet/blob/master/DN_stack_2layer.png "DN autoencoder 2 hidden layers")
+
 ---
 
 Output of diffusion_net_pretrain-layer1.py
@@ -61,4 +65,6 @@ eta=100000
 Final encoder loss 1.40e+00
 Full autoencoder denoising loss 1.21e+00
 ```
+![alt text](https://github.com/gmishne/DiffusionNet/blob/master/DN_enc_1layer.png "DN encoder 1 hidden layer")
+![alt text](https://github.com/gmishne/DiffusionNet/blob/master/DN_stack_1layer.png "DN autoencoder 1 hidden layer")
 
