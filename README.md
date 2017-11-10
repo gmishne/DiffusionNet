@@ -6,6 +6,8 @@ Tensorflow implementation of
 G. Mishne, U. Shaham, A. Cloninger and I. Cohen, 
 Applied and Computational Harmonic Analysis, Aug. 2017.
 
+![decoder](https://github.com/gmishne/DiffusionNet/blob/master/bubble.png "DN decoding from embedding to surface")
+
 Files:
 - diffusion_net_pretrain.ipynb - jupyter notebook demo of using DiffusionNet for 3D curve
 - diffusion_net_pretrain-layer1.py - python script for Diffusion Net with 1 hidden layer architecture, evaluting various values of the cost parameters
@@ -38,8 +40,8 @@ Final encoder loss 1.37e+00
 Full autoencoder denoising loss 1.22e+00
 ```
 
-![alt text](https://github.com/gmishne/DiffusionNet/blob/master/DN_enc_2layer.png "DN encoder 2 hidden layers")
-![alt text](https://github.com/gmishne/DiffusionNet/blob/master/DN_stack_2layer.png "DN autoencoder 2 hidden layers")
+![encoder2](https://github.com/gmishne/DiffusionNet/blob/master/DN_enc_2layer.png "DN encoder 2 hidden layers")
+![autoencoder2](https://github.com/gmishne/DiffusionNet/blob/master/DN_stack_2layer.png "DN autoencoder 2 hidden layers")
 
 ---
 
@@ -65,6 +67,6 @@ eta=100000
 Final encoder loss 1.40e+00
 Full autoencoder denoising loss 1.21e+00
 ```
-![alt text](https://github.com/gmishne/DiffusionNet/blob/master/DN_enc_1layer.png "DN encoder 1 hidden layer")
-![alt text](https://github.com/gmishne/DiffusionNet/blob/master/DN_stack_1layer.png "DN autoencoder 1 hidden layer")
+![encoder1](https://github.com/gmishne/DiffusionNet/blob/master/DN_enc_1layer.png "DN encoder 1 hidden layer")
+![autoencoder1](https://github.com/gmishne/DiffusionNet/blob/master/DN_stack_1layer.png "DN autoencoder 1 hidden layer")
 
